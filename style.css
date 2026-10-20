@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    position: sticky;
+    background-color: aqua;
+    text-align: center;
+}
+
+main {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.descricao-musica {
+    background-color: rgb(105, 179, 154);
+    width: 300px;
+    height: 400px;
+}
